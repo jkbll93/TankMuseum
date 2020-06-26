@@ -1,0 +1,11 @@
+Looks like we finally get new Client, Tank Museum,  - They requested
+first small application to be developed.
+Here is what we get from them as functionality description:
+- it will be REST webservice
+- we will require following end points:
+  - a list of all tanks in the museum, service will return ID, name and weight (in tonns) for each tank
+    ID type is of your preference, please, suggest the best in your opinion;
+    the list should be ordered by tank name
+  - end point for adding new tank, it will require name of the tank, and its weight (in tonns),
+    and return ID of the added tank; it should disallow adding new tank with the name already existing in the system
+  - removing tank, using tank ID
